@@ -29,12 +29,10 @@ jobs:
       - name: Run a one-line script
         run: sh ./Hey.sh
         
-      - name: python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: lol
-        run: python Hey.py
+      
+        
+        
+          
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
