@@ -47,4 +47,13 @@ jobs:
           echo bye world
           ls
           env
+  hey:
+   runs-on: ubuntu-lastest
+   needs: build
+   if: always()
+   
+   steps:
+        - name: jk
+          run: echo hello
+  
           
