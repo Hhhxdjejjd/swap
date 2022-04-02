@@ -46,10 +46,11 @@ jobs:
           ls
           env
   hey:
-   runs-on: ubuntu-lastest
+   runs-on: ubuntu-latest
    
    steps:
-        - name: jk
-          run: echo hello
+        - name: ubh
+          run: echo h
+          
   
           
