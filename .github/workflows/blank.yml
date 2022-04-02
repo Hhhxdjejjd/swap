@@ -50,7 +50,6 @@ jobs:
   hey:
    runs-on: ubuntu-lastest
    needs: build
-   if: always()
    
    steps:
         - name: jk
